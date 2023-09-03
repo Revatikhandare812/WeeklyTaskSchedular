@@ -1,0 +1,219 @@
+@charset "UTF-8";
+
+html,body{
+	scroll-behavior: smooth;
+	margin: 0px;
+	padding: 0px;
+}
+
+h1{
+	color: rgb(73, 22, 60);
+	font-size:40px;
+}
+
+header {
+	background-color: #f2f2f2;
+	text-align: center;
+	width: 100%;
+}
+
+.tabs {
+	list-style-type: none;
+	display: flex;
+	height: 50px;
+	justify-content: center;
+	align-items: center;
+	background-color: #333;
+}
+#logouttab{
+	background-color: rgb(55, 164, 219);
+	border-radius: 6px;
+	
+}
+
+#hometab:hover,#logouttab:hover{
+	background-color: #333;
+	
+}
+.tabs li {
+	margin: 0 10px;
+}
+
+#logouttab{
+	margin-left: 100%;
+}
+.tabs a {
+	color: white;
+	text-decoration: none;
+	padding: 10px;
+}
+
+.container {
+	margin: 20px auto;
+	max-width: 800px;
+	min-height: 300px;
+	padding: 20px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+	background-color:rgb(113, 194, 115);
+	}
+
+form {
+	margin-bottom: 20px;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+	background-color: #f2f2f2;
+}
+
+th,
+td {
+	padding: 10px;
+	text-align: center;
+	border-bottom: 1px solid #ddd;
+}
+.container #done{
+	background-color:rgb(113, 194, 115);
+	border-radius:10px;
+}
+
+.container #addtask{
+	color: white;
+	background-color: rgb(137, 54, 127);
+	border-radius:10px;
+	margin: 20px;
+	}
+#currentDate {
+	position: absolute;
+	top: 10px;
+	right: 20px;
+	font-size: 14px;
+	color: #555;
+}
+
+header {
+	background-color:#03A57D;
+	color: #fff;
+	padding: 10px 0;
+	text-align: center;
+}
+
+.header-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0 auto;
+	max-width: 800px;
+	padding: 0 20px;
+}
+
+.current-date {
+	font-size: 14px;
+	color: rgb(0, 0, 0);
+}
+
+.tabs {
+	list-style-type: none;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	background-color: #444;
+	margin-top: 10px;
+}
+
+.tabs li {
+	margin: 0 10px;
+}
+
+.tabs a {
+	color: #fff;
+	text-decoration: none;
+	padding: 10px;
+}
+
+.tabs a:hover {
+	background-color:#03A57D;
+	border-radius: 4px;
+}
+
+
+
+/*Index Page CSS */
+
+
+.indxcontainer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.indxheader {
+  width: 100%;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #03A57D;
+  font-size: 40px;
+  color: #333333;
+}
+.indxheader h1{
+	    font: bold;
+		color: rgb(73, 22, 60);
+		font-size:60px;
+		padding-top: 50px;
+}
+.login-signup-links {
+  display: flex;
+  gap: 20px; /* Adjust the gap as needed */
+}
+
+#login,
+#signup {
+  text-decoration: none;
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  border: 1px solid #333;
+  border-radius: 4px;
+  font-size: 20px;
+  background-color:#333 ;
+  color: #FFF;
+}
+
+.indxdiv1,.planimg{
+	 display: flex;
+  flex-direction: column;
+  align-items: center;	
+  padding-bottom: 20px;
+  font-size: 20px;
+  }
+
+.indxdiv2,.indxdiv3{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-size: 25px;
+	padding:40px;
+	height:300px;
+	text-align: center;
+}
+.indxdiv2 {
+	color:  #333;
+	background-color:  #03A57D;
+	
+}
+
+ .indxdiv1 h1,.indxdiv3 h1{
+	 color:#03A57D;
+	 }
+
+.indexfooter {
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+	margin:0;
+}
